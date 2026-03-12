@@ -1,0 +1,34 @@
+body {
+font-family: Arial, sans-serif;
+}
+
+.navbar-custom {
+background-color: #0b1f3a;
+}
+
+section {
+scroll-margin-top: 70px;
+}
+
+.card {
+transition: transform 0.2s;
+}
+
+.card-img-top {
+aspect-ratio: 16 / 10;
+object-fit: cover;
+}
+
+.card-img-top {
+transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.card-img-top:hover {
+transform: scale(1.04);
+filter: brightness(60%);
+}
+
+
+.footer-custom {
+background-color: #0b1f3a;
+}
